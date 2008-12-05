@@ -1,0 +1,117 @@
+08-11-13
+
+    + Strip out the Thrust Harder engine
+    + Customise intro sequence and menus
+
+08-11-14
+
+    + Add the significant asset, plus some other nice fonts
+
+08-11-15
+
+    + Added "Muscatatuck Urban Training Center"
+
+08-11-16
+
+    + Segmented map into 25 1000x1000 textures
+    + Removed more "Thrust Harder" code
+    + Got map navigation working, to a degree
+
+08-11-17
+
+    + Removed "Thrust Harder" assets
+    + New, less copyright infringing title music
+    + Gridlines!
+    + Improved map navigation
+
+08-11-18
+
+    + Better intro sequence
+    + New title screen
+    + End map navigation at the boundary
+
+08-11-20
+
+    + Car sprites and physics
+    + Initial dynamic car positions in database
+
+08-11-21
+
+    + Crappy shadows
+
+08-11-23
+
+    + Optimised texture file sizes
+    + Basic editor
+    + Tree collisions
+
+08-11-24
+
+    + Increased buffer size in Box2D
+    + Added more trees
+    + Added the animating guy
+
+08-11-25
+
+    + Added buildings to map editor
+    + Added extra controls to map editor
+    + Added some buildings to map
+    + New background screens
+
+08-11-26
+
+    + Add cars and parked cars to editor
+    + Lots of buildings, cars and parked cars added to map
+    + Added the ute
+    + Remove manual control from cars
+    + Spawn little guys randomly at start, more in centre, not within physics
+    + Shape selection in editor
+    + Add deletion to editor; deletes from database directly
+
+08-11-27
+
+    + Physics for all buildings done
+    + Amalgamate buildings into MetaBuilding
+    + Pick entities and meta-buildings and draw a box around them
+
+08-11-28
+
+    + Give guys, buildings and cars types (asset, friendly, unknown, hostile)
+    + Guys and vehicles have actions, which have targets and stack
+    + Implement move action initially, non-Agents do it at random
+
+08-11-30
+
+    + Add gfx for swat team, smoke and 'splosions
+    + Zoom centres on mouse; double click zooms
+    + Place guys in the editor, either peeps or agents
+    + Initial target is vehicle near spawn point
+    + Swat guys can be targetted and moved
+    + Better GUI for selection and so on
+    + 1-4 centre camera on swat guy, 5 on target
+    + Tab targets next swat guy / centres camera on him
+    + Improve guy movement; repel from objects, reach goal on collide
+    + Finally finished level physics
+    + Implement enter / leave building and vehicle
+
+08-12-02
+
+    + Fix some project annoyances (compiler warnings, debug build, etc)
+    + Massive refactor, especially of engine / database code
+    + Fix serious infinite loop bug in Box2D
+    + Write the readme
+    + Implement the controls as described in the readme
+
+08-12-03
+
+    + Polish the movement code and the GUI
+    + Get buildings and vehicles working properly
+
+Next?
+    + Implement InfoAction
+    + Implement detain, attack and shock actions
+    + Show crucifix where guy dies
+    + Scoring
+    + Missions
+    + Sound effects, screen effects
+    + Global high scores?
