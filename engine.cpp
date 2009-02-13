@@ -138,7 +138,7 @@ Engine::start()
     if ( m_hge->System_Initiate() )
     {
         _loadData();
-        switchContext( STATE_SPLASH );
+        switchContext( STATE_GAME );
         m_hge->Random_Seed();
         m_hge->System_Start();
     }
@@ -464,9 +464,9 @@ Engine::_initGraphics()
     m_hge->System_SetState( HGE_FRAMEFUNC, s_update );
     m_hge->System_SetState( HGE_RENDERFUNC, s_render );
     m_hge->System_SetState( HGE_TITLE, "+++ U R B A N | W A R F A R E +++" );
-    m_hge->System_SetState( HGE_WINDOWED, true );
-    m_hge->System_SetState( HGE_SCREENWIDTH, 800 );
-    m_hge->System_SetState( HGE_SCREENHEIGHT, 600 );
+    m_hge->System_SetState( HGE_WINDOWED, false );
+    m_hge->System_SetState( HGE_SCREENWIDTH, 1280 );
+    m_hge->System_SetState( HGE_SCREENHEIGHT, 800 );
     m_hge->System_SetState( HGE_SCREENBPP, 32 );
     m_hge->System_SetState( HGE_USESOUND, true );
     m_hge->System_SetState( HGE_SHOWSPLASH, false );

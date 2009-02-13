@@ -917,29 +917,29 @@ Game::_renderGui()
     }
 
     m_gui->SetColor( 0x88000000 );
-    m_gui->RenderStretch( 300.0f, 6.0f, 500.0f, 25.0f );
+    m_gui->RenderStretch( 540.0f, 6.0f, 740.0f, 25.0f );
 
-    font->printf( 400.0f, 10.0f, HGETEXT_CENTER, "%s -> %s %s",
+    font->printf( 640.0f, 10.0f, HGETEXT_CENTER, "%s -> %s %s",
                   ACTION_NAME[m_actionType],
                   m_picked->getAllegianceName(),
                   m_picked->getTypeName() );
 
-    m_gui->RenderStretch( 60.0f, 576.0f, 740.0f, 595.0f );
+    m_gui->RenderStretch( 300.0f, 776.0F, 980.0f, 795.0f );
     for ( unsigned int i = 0; i < m_squad.size(); ++i )
     {
         if (std::find( m_team.begin(),m_team.end(),m_squad[i]) != m_team.end() )
         {
-            font->printf( 160.0f + 160.0f * i, 580.0f, HGETEXT_CENTER,
+            font->printf( 390.0f + 160.0f * i, 780.0f, HGETEXT_CENTER,
                           "[%s]", m_squad[i]->getName() );
         }
         else
         {
-            font->printf( 160.0f + 160.0f * i, 580.0f, HGETEXT_CENTER,
+            font->printf( 390.0f + 160.0f * i, 780.0f, HGETEXT_CENTER,
                           m_squad[i]->getName() );
         }
-        font->printf( 80.0f + 160.0f * i, 580.0f, HGETEXT_CENTER, "|" );
+        font->printf( 310.0f + 160.0f * i, 780.0f, HGETEXT_CENTER, "|" );
     }
-    font->printf( 720.0f, 580.0f, HGETEXT_CENTER, "|" );
+    font->printf( 960.0f, 780.0f, HGETEXT_CENTER, "|" );
 
     hge->Gfx_RenderLine( 0.0f, mouse.y, mouse.x - 5.0f, mouse.y, 0xCCFFFFFF );
     hge->Gfx_RenderLine( mouse.x + 5.0f, mouse.y, 800.0f, mouse.y, 0xCCFFFFFF );
