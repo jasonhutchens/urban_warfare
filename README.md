@@ -1,13 +1,10 @@
-                      ---------------------------------
-                      +++ U R B A N | W A R F A R E +++
-                      |             +                 |
-                      |    by The Kranzky Brothers    |
-                      ---------------------------------
+URBAN WARFARE
+=============
 
 (This game is not in any way endorsed by the Australian Tactical Assault Group).
 
 BRIEFING
-========
+--------
 
 You command an elite tactical assault group. Issue commands from the safety of
 your home. Watch everything using spy plane technology. Your men are your eyes
@@ -15,7 +12,7 @@ and ears on the ground. Satisfy the mission objectives, minimise civilian
 casualties and finish in time to collect your kids from school.
 
 CONTROLS
-========
+--------
 
 * Click-and-drag with the LMB or RMB to scroll around.
 
@@ -44,7 +41,7 @@ CONTROLS
     + Hit ESC while paused to quit.
 
 MISSIONS
-========
+--------
 
 It's game over if you lose your squad of four. Any MIA squad members are
 replaced with rookies when you finish a mission. Maximise your score:
@@ -59,7 +56,7 @@ replaced with rookies when you finish a mission. Maximise your score:
 Each mission ends when you lose your entire squad or no hostiles remain.
 
 CREDITS
-=======
+-------
 
 This game was written entirely for gamejam1108 (http://gamejam.org). Lloyd
 Kranzky was responsible for the coding, while Pazu Kranzky drew the art.
